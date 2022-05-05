@@ -1,0 +1,38 @@
+{
+  "title": "Chamedan Safar",
+  "description": "The first online airline ticket search platform",
+  "search-flight": "Flight Search",
+  "search": "Search",
+  "origin": "Origin",
+  "destination": "Destination",
+  "footer": [
+    "Quick Access",
+    "Guide"
+  ],
+  "navs": [
+    {
+      "title": "Home",
+      "href": "/"
+    },
+    {
+      "title": "Agencies",
+      "href": "/agencies"
+    },
+    {
+      "title": "Blog",
+      "href": "/blog"
+    },
+    {
+      "title": "About",
+      "href": "/about"
+    },
+    {
+      "title": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "about": {
+    "title": "The first online aircraft search platform",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }
+}

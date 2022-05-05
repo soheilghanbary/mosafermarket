@@ -1,0 +1,36 @@
+.footer {
+  @apply flex lg:flex-row lg:pb-20 xl:pb-20 mt-auto xl:flex-row lg:items-center items-stretch gap-10 flex-col justify-evenly p-10 bg-[#63B4F5] rounded-t-3xl;
+
+  &.ltr {
+    @apply text-left;
+    li {
+      @apply mr-auto;
+    }
+  }
+
+  .section {
+    h3 {
+      @apply text-2xl font-semibold text-white border-white mb-8;
+    }
+
+    ul {
+      @apply flex flex-col gap-4;
+      li {
+        @apply text-white flex gap-3 items-center;
+        svg {
+          @apply w-6 h-6;
+        }
+      }
+    }
+
+    .enamads {
+      @apply flex items-center gap-4 flex-row mt-6;
+      li {
+        @apply flex justify-center items-center w-20 h-20 bg-white rounded-md;
+        img {
+          @apply w-full bg-cover p-1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "irsans";
+  font-weight: 300;
+  src: url("@/assets/fonts/KalamehWeb-Thin.woff2");
+}
+@font-face {
+  font-family: "irsans";
+  font-weight: 400;
+  src: url("@/assets/fonts/KalamehWeb-Regular.woff2");
+}
+@font-face {
+  font-family: "irsans";
+  font-weight: 600;
+  src: url("@/assets/fonts/KalamehWeb-Bold.woff2");
+}
+@font-face {
+  font-family: "irsans";
+  font-weight: 700;
+  src: url("@/assets/fonts/KalamehWeb-Black.woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  outline: none;
+  user-select: none;
+  font-family: "irsans";
+  // font-family: 'Nunito', 'irsans' , sans-serif;
+  direction: rtl;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply text-slate-500 bg-gray-100;
+}
+
+.title {
+  @apply relative pb-4 mb-4 text-2xl text-slate-600 font-semibold;
+  &::after {
+    width: 50px;
+    height: 3px;
+    border-radius: 10099px;
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    background-color: #475569;
+  }
+}
+
+// @import "navbar";
+// @import "select";
+@import "home";
+// @import "sidebar";
+// @import "footer";
+// @import 'calendar';
+// @import "components/flight_search";
+// @import "components/mobile_select";
+// @import "components/mobile_calendar";
+// @import "components/calender";

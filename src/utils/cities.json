@@ -1,0 +1,58 @@
+[
+  {
+    "value": "tehran",
+    "label": "تهران"
+  },
+  {
+    "value": "mashhad",
+    "label": "مشهد"
+  },
+  {
+    "value": "isfahan",
+    "label": "اصفهان"
+  },
+  {
+    "value": "shiraz",
+    "label": "شیراز"
+  },
+  {
+    "value": "najaf",
+    "label": "نجف"
+  },
+  {
+    "value": "ahvaz",
+    "label": "اهواز"
+  },
+  {
+    "value": "kermanshah",
+    "label": "کرمانشاه"
+  },
+  {
+    "value": "mashhad",
+    "label": "فارس"
+  },
+  {
+    "value": "isfahan",
+    "label": "کرمان"
+  },
+  {
+    "value": "shiraz",
+    "label": "تبریز"
+  },
+  {
+    "value": "najaf",
+    "label": "قم"
+  },
+  {
+    "value": "ahvaz",
+    "label": "اراک"
+  },
+  {
+    "value": "kermanshah",
+    "label": "بروجرد"
+  },
+  {
+    "value": "kermanshah",
+    "label": "خرم آباد"
+  }
+]

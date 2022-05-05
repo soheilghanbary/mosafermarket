@@ -1,0 +1,52 @@
+.calendar {
+  @apply relative;
+  .field {
+    @apply flex justify-between items-center relative text-slate-500 py-3 px-6 shadow shadow-slate-300/30 rounded-lg bg-white lg:w-64 xl:w-64 w-full lg:border xl:border text-right mt-1 lg:mt-0 xl:mt-0;
+    // xl
+    @apply xl:text-base;
+    // lg
+    @apply lg:text-xs;
+    // 2xl
+    @apply 2xl:text-base;
+
+    svg {
+      @apply absolute left-3 w-6 h-6 duration-150;
+      &.arrowActive {
+        @apply transform rotate-180;
+      }
+    }
+    svg:nth-child(2) {
+      @apply absolute right-3 w-6 h-6 duration-150;
+    }
+  }
+  .date-picker {
+    @apply text-slate-400 p-2 duration-200 opacity-0 translate-y-2 rounded-md shadow-md absolute w-[800px] left-0 mt-4 border bg-white z-20;
+    visibility: hidden;
+    .wrapper {
+      @apply grid grid-cols-2 gap-2;
+    }
+
+    &.ltr {
+      @apply right-0;
+    }
+
+    &.active {
+      visibility: visible;
+      @apply transform-none opacity-100;
+    }
+
+    .weekend {
+      @apply grid grid-cols-7 items-center bg-sky-50 my-2 rounded-md text-sky-500 shadow shadow-slate-300/30;
+      span {
+        @apply p-3 text-center flex justify-center items-center;
+      }
+    }
+
+    .body {
+      @apply grid grid-cols-7 items-center gap-1;
+      span {
+        @apply p-3 hover:bg-teal-100 rounded-md hover:text-teal-500 duration-100 cursor-pointer ring-emerald-50 text-center flex justify-center items-center border border-slate-100 shadow shadow-slate-300/30;
+      }
+    }
+  }
+}

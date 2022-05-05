@@ -1,0 +1,39 @@
+.flight-search {
+  @apply p-5;
+
+  .title {
+    @apply relative pb-4 mb-4 text-2xl text-slate-600 font-semibold;
+    &::after {
+      width: 50px;
+      height: 3px;
+      border-radius: 10099px;
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: 3px;
+      background-color: #475569;
+    }
+  }
+
+  &.ltr {
+    .title {
+      @apply text-left;
+      &::after {
+        left: 0;
+      }
+    }
+  }
+
+  .container {
+    @apply bg-[#F2F8FF] rounded-lg p-4;
+    .section {
+      @apply flex flex-col gap-1 relative;
+    }
+    .direct-btn {
+      @apply p-2 absolute top-1/2 left-3 bg-white transform -translate-y-1/2 rounded-full ring-2 ring-slate-500 w-10 h-10;
+      svg {
+        @apply w-6 h-6;
+      }
+    }
+  }
+}
